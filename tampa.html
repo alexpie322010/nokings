@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NYC - No Kings Tracker</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      margin: 0;
+      font-family: monospace, sans-serif;
+    }
+    .header {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      font-size: 1.2rem;
+    }
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    iframe {
+      width: 80%;
+      height: 80%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">New York City</div>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/uc5YZ6oviro" allowfullscreen></iframe>
+  </div>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
